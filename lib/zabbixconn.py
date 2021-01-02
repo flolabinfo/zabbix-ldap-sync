@@ -183,7 +183,7 @@ class ZabbixConn(object):
         else:
           user_defaults = {'autologin': 0, 'roleid': 1, 'usrgrps': [{'usrgrpid': str(groupid)}], 'passwd': random_passwd}
 
-		user_defaults.update(user_opt)
+        user_defaults.update(user_opt)
         user.update(user_defaults)
 
         result = self.conn.user.create(user)
