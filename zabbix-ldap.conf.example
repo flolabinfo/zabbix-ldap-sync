@@ -29,7 +29,11 @@ password = adminp4ssw0rd
 auth = webform
 
 [user]
+# for version 5.0 and older
 type = 1
+
+# for version 5.2 and or later
+roleid = 1
 
 [media]
 description = Email
