@@ -32,7 +32,7 @@ auth = webform
 # for version 5.0 and older
 type = 1
 
-# for version 5.2 and or later
+# for version 5.2 or later
 roleid = 1
 
 [media]
